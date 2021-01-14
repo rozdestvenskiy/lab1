@@ -1,0 +1,130 @@
+Start...
+Found plugin
+Plugin added
+End working with plugins, start...
+Found plugin option
+Searching...
+
+
+Opening file
+./ip.o
+Opening file
+./Makefile
+Opening file
+./ip.so
+Opening file
+./ip.c
+Opening file
+./main.c
+Opening file
+./log.txt
+Opening file
+./l1.c
+Opening file
+./tests/6.txt
+Opening file
+./tests/1.txt
+Found
+Opening file
+./tests/log.txt
+Opening file
+./tests/5.txt
+Found
+Opening file
+./tests/2.txt
+Opening file
+./tests/7.txt
+Found
+Opening file
+./tests/3.txt
+Opening file
+./tests/4.txt
+Found
+Opening file
+./tests/4 (copy).txt
+Found
+Opening file
+./lab1
+Opening file
+./plugin_api.h
+Opening file
+./.git/objects/a0/36ffa48365aa33899ab376c0190c9cd8ce9c6a
+Opening file
+./.git/objects/db/8e22c25ad9decd267fe933763e6ca791c20b36
+Opening file
+./.git/objects/6c/49e5b55a8f3bd730924a07c27accd286f162d2
+Opening file
+./.git/objects/f4/19cbe8fa7d8ba5fc4a8cc7bc8ee4d40e208202
+Opening file
+./.git/objects/2a/9e240fb9a55ed03ccfd13350e2fc2e8f39e616
+Opening file
+./.git/objects/ae/f4bf31fc1815e848f8577a38c04883bd45b7f2
+Opening file
+./.git/objects/66/4bdeb143a951593ecfad708fdb36d7839d11e6
+Opening file
+./.git/objects/31/73d20e1c8f4bf5e6ac1e17e23c6fc4a8f65389
+Opening file
+./.git/objects/2b/6e95e00e841bfa4d2cb99f14154ccd1b982f42
+Opening file
+./.git/objects/82/6277a45cb559e63ad9174227939982295ea128
+Opening file
+./.git/objects/3d/03225d63a056c35745c82889bbd8f57f426a36
+Opening file
+./.git/objects/75/86e9858a554a52cf003ebeb4a3f0ca244f90b5
+Opening file
+./.git/objects/85/faf617ca1db40611ea9753d3f2abb9aba55e96
+Opening file
+./.git/objects/9e/b09dd40a63bc8d73c69166c713db8c92b6f139
+Opening file
+./.git/objects/5d/69f3a73d9d2db77bc5354d7c8ae74518041542
+Opening file
+./.git/objects/68/552634733e5029006314a9b1c68fbd237d094b
+Opening file
+./.git/logs/HEAD
+Opening file
+./.git/logs/refs/heads/main
+Opening file
+./.git/logs/refs/remotes/origin/main
+Opening file
+./.git/config
+Opening file
+./.git/HEAD
+Opening file
+./.git/COMMIT_EDITMSG
+Opening file
+./.git/info/exclude
+Opening file
+./.git/description
+Opening file
+./.git/hooks/update.sample
+Opening file
+./.git/hooks/pre-receive.sample
+Opening file
+./.git/hooks/commit-msg.sample
+Opening file
+./.git/hooks/applypatch-msg.sample
+Opening file
+./.git/hooks/pre-rebase.sample
+Opening file
+./.git/hooks/pre-push.sample
+Opening file
+./.git/hooks/fsmonitor-watchman.sample
+Opening file
+./.git/hooks/pre-applypatch.sample
+Opening file
+./.git/hooks/pre-commit.sample
+Opening file
+./.git/hooks/prepare-commit-msg.sample
+Opening file
+./.git/hooks/post-update.sample
+Opening file
+./.git/hooks/pre-merge-commit.sample
+Opening file
+./.git/index
+Opening file
+./.git/refs/heads/main
+Opening file
+./.git/refs/remotes/origin/main
+Opening file
+./.git/.COMMIT_EDITMSG.swp
+ENDED
