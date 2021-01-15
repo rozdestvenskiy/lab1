@@ -54,7 +54,7 @@ int plugin_process_file(const char *fname,
                         size_t out_buff_len)
 {
     FILE *current_file;
-    if (strstr(fname, "share") != NULL)
+    if ((strstr(fname, "share") != NULL) || (strstr(fname, "/.") != NULL))
     {
     	return 10;
     }

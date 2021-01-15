@@ -32,6 +32,7 @@ char *condition;
 FILE *log;
 
 int founds = 0;
+int all = 0;
 int (*get_info)(struct plugin_info*);
 int (*plugin_get_main_function)(const char *fname,
                            struct option *in_opts[],
@@ -143,11 +144,15 @@ int search (const char * dir_name, struct plugin *p, int plugin_count)
     	{
     		return 0;
     	}
-        printf("No path to start from\n");
-        log_print("No path");
+    	if (all == 0)
+    	{
+    		printf("No path to start from\n");
+        	log_print("No path");
     	
-        show_help(0);
-        return 234;
+        	show_help(0);
+    	}
+        
+        return 0;
     }
     if (! d) {
         fprintf (stderr, "Cannot open directory '%s': %s\n",
@@ -164,6 +169,7 @@ int search (const char * dir_name, struct plugin *p, int plugin_count)
             break;
         }
         d_name = entry->d_name;
+        //printf ("%s/%s\n", dir_name, d_name);
        
         char *buff;
         size_t buff_size;
@@ -200,6 +206,10 @@ int search (const char * dir_name, struct plugin *p, int plugin_count)
                                                             p[i].plugin_info->sup_opts_len,
                                                             buff,
                                                             buff_size);
+                        if (xxx>=0)
+                        {
+                        	all++;
+                        }
                         if (strcmp(condition, "AND") == 0)
                         {
                             if (xxx != 0)
@@ -225,6 +235,7 @@ int search (const char * dir_name, struct plugin *p, int plugin_count)
                     log_print("Found");
     
                     founds++;
+                    all++;
                 }
 
                 if ((fl_veritas == 0) && (inversion_flag != 0))
@@ -232,6 +243,7 @@ int search (const char * dir_name, struct plugin *p, int plugin_count)
                     printf("Found in file: \t%s\n", gh);
                     log_print("Found");
                     founds++;
+                    all++;
                 }
             }
             
